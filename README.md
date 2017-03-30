@@ -12,7 +12,7 @@ If you have access to the simulator, you can record your own data. If not, downl
 The data contains a folder of images called IMG (correspond to a video of user-recorded driving data on a simulator) and driving_log.csv containing the following columns: 'center', 'left', 'right', 'steer', 'throttle', 'brake', 'speed’. The first 3 refer to images from 3 dashboard cameras in various positions. The rest correspond to values recorded at that time. Images are 160 x 320 x 3. 
 
 ### Model Architecture
-![CNN](images/arch.png)
+![CNN](images/archp3.png)
 
 ### Further Model details
 I’ve chosen an Epoch length of 10, a batch size of 128 and mean-squared error for my loss function. I also use an Adam optimizer instead of say, Stochastic Gradient Descent. 
