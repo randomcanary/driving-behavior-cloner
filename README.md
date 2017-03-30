@@ -1,5 +1,5 @@
 
-## Behavioral Cloning Project
+## Driving Behavior Cloner
 ### Preet Singh 
 This repository contains my work on Udacity’s Behavior Cloning project in their Self-Driving Car program, The python notebook contains the code to train a convolutional neural net pipeline on user-recorded driving data in a simulator. The model outputs steering values which can be fed back to the simulator so the car can ‘drive’.
 
